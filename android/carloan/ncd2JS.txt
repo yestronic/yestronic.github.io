@@ -1,0 +1,13 @@
+javascript:(function() {
+document.getElementsByClassName('header-top')[0].remove();
+document.getElementsByClassName('ish3 CrossSaleTitle')[0].remove();
+document.getElementsByClassName('span3 MkVal')[0].remove();
+document.getElementsByClassName('span3 ISrch')[0].remove();
+document.getElementsByClassName('span3 NCD')[0].remove();
+document.getElementsByClassName('span3 VehCheck')[0].remove();
+document.getElementById('footer').remove();
+document.getElementById('body').id='';
+document.getElementsByClassName('main-content')[0].className='';
+document.getElementsByTagName('head')[0].remove();
+document.getElementsByClassName('btn-blue')[0].textContent = 'Back';
+})()

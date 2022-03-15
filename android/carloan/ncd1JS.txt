@@ -1,0 +1,17 @@
+javascript:(function() {
+document.getElementsByClassName('header-top')[0].remove();
+document.getElementsByClassName('span3 sidebar')[0].remove();
+document.getElementsByClassName('calloutbox')[0].remove();
+document.getElementsByClassName('ish2')[0].remove();
+document.getElementById('body').id='';
+document.getElementsByClassName('main-content')[0].className='';
+document.getElementById('footer').remove();
+document.getElementById('chkAgreeTerm').checked = true;
+document.getElementById('chkAgreeTerm').style.display='none';
+document.getElementsByTagName('label')[2].remove();
+document.getElementsByTagName('p')[8].remove();
+document.getElementsByClassName('btn-green')[0].textContent = 'Get NCD';
+document.getElementsByTagName('head')[0].remove();
+document.getElementsByTagName('label')[0].textContent = 'Car Plate No';
+document.getElementsByTagName('label')[1].textContent = 'IC Number';
+})()
