@@ -1,0 +1,10 @@
+javascript:(function() {
+document.getElementsByClassName('webview-hide-onload flutter-webview-hide-onload')[0].remove();
+document.getElementsByClassName('news-info-footer webview-hide-onload')[0].remove();
+document.getElementsByClassName('popular-model-container')[0].remove();
+document.getElementsByClassName('popular-brands-container')[0].remove();
+document.getElementsByClassName('pure-block pure-block-container')[0].remove();
+document.getElementsByClassName('message-switch fuel-message')[0].remove();
+const elements = document.getElementsByClassName('relate-new-container');while (elements.length > 0) elements[0].remove();
+const element2 = document.getElementsByClassName('fuel-img');while (element2.length > 0) element2[0].remove();
+})()
