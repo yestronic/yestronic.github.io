@@ -1,0 +1,13 @@
+javascript:(function() {
+document.getElementById('p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_footer_').style.display='none';
+document.getElementById('_summon_WAR_JPJDXPPluginportlet_titleResultRow').remove();
+document.getElementById('_summon_WAR_JPJDXPPluginportlet_gapRow').remove();
+document.getElementById('toTop').remove();
+document.getElementById('toTop').remove();
+document.getElementById('_summon_WAR_JPJDXPPluginportlet_disclaimerRow').remove();
+document.getElementsByTagName('header')[0].style.display='none';
+document.getElementsByTagName('strong')[4].remove();
+document.getElementsByTagName('em')[6].remove();
+document.getElementsByTagName('style')[8].remove();
+document.getElementsByTagName('hr')[0].remove();
+})()
