@@ -1,3 +1,4 @@
+javascript:(function() {
 document.getElementById('home').remove();
 document.getElementsByClassName('responsive-navi-mobile')[0].remove();
 document.getElementById('column-2').remove();
@@ -6,3 +7,4 @@ document.getElementById('column-4').remove();
 document.getElementsByClassName('grid-container footer')[0].remove();
 document.getElementById('b2t').remove();
 document.getElementById('keyreply-container').remove();
+})()
