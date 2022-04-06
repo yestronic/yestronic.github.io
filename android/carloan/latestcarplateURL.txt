@@ -1,1 +1,1 @@
-http://13.229.84.74/latestcarplate.php
+https://jtnappstat.hopto.org/latestcarplate.php
