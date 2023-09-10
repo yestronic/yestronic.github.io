@@ -1,1 +1,1 @@
-https://jtnappstat.hopto.org/latestcarplate.php
+http://jtnappstat.hopto.org/latestcarplate.php
